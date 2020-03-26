@@ -2,6 +2,18 @@
     text-align: center;
     
 }
+
+.icon-container {
+  width: 100%;
+  height:1.2cm;
+  padding:0;
+}
+
+.icon-container img{
+  width: 1.2cm;
+  height:1.2cm;
+  margin-right: 5px;
+}
   
   .text-block {
     width: 410px;
