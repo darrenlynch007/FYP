@@ -229,14 +229,10 @@
      .sub-header {
         display: flex;
         margin-top: 0.2cm;
-    }
-
-    .sub-header div {
         width: 100%;
-        height: 3cm;
+        height: 0.1cm;
         background-color: white;
         flex-direction: row;
-        
     }
 
     .sub-header-box-1 {
@@ -244,27 +240,22 @@
         border: 2px white solid;
         margin-top: 0;
         color: #3D84D4;
+        height: 0.1cm;
     }
 
-    .sub-header-box-2 {
-        flex:1;
-        border: 2px white solid;
-        padding:10px;
-        text-align: center;
-    }
-    .sub-header-box-3 {
-        flex:1;
-        border: 2px white solid;
-    }
+    
 
-     .gtar-container {
+     .instrument-container {
          display: flex;
          margin-top: 1cm;
+         margin-left: 1.75cm;
+         width: 100%;
+         /* height: 16cm; */
      }
 
-     .gtar-container div {
-         width: 100%;
-         height: 16cm;
+     .instrument-container div {
+         
+         height: auto;
          background-color: white;
          
          flex-direction: row;
@@ -272,35 +263,177 @@
          
      }
 
-     .gtar-name-box {
-         width:300px;
-         height: 45px;
-         text-align: center;
-         margin-left: 3.8cm;
-         margin-top: 0cm;
-         color: #3D84D4;
-         padding: 10px;
-         font-size: 34px;
-     }
-
-     .gtar-container-box-1 {
+     .guitar-view {
          flex:1;
      }
 
-     .gtar-container-box-1 img {
-      height: 10cm;
+     .guitar-view img {
+      height: 7.5cm;
+      padding: 2px 55px;
       border-radius: 6px;
-      border: 3px #3D84D4 solid;
-      margin-left: 4.5cm;
+      border: 7px #3D84D4 solid;
      }
 
-     .gtar-container-box-2 {
-         flex:1;
-         
-         padding: 25px;
-         text-align:center;
-         border-left: 4px #3D84D4 solid;
-     }
+     
+
+     .piano-view {
+        flex:1;
+    }
+
+    .piano-view img {
+     width: 5.5cm;
+     padding: 60px 35px;
+     border-radius: 6px;
+     border: 7px #3D84D4 solid;
+     align-content: center;
+     /* margin-left: 4.5cm; */
+    }
+
+    .violin-view {
+        flex:1;
+    }
+
+    .violin-view img {
+     height: 6.5cm;
+     padding: 23px 20px;
+     border-radius: 6px;
+     border: 7px #3D84D4 solid;
+     /* margin-left: 4.5cm; */
+     align-content: center;
+    }
+    
+    .drums-view {
+        flex:1;
+    }
+
+    .drums-view img {
+     height: 7cm;
+     padding: 2px 15px;
+     border-radius: 6px;
+     border: 7px #3D84D4 solid;
+     margin-left: 40px;
+    }
+
+    
+
+    .pedals-view {
+       flex:1;
+   }
+
+   .pedals-view img {
+    height: 7cm;;
+    padding: 0px 0px;
+    border-radius: 6px;
+    border: 7px #3D84D4 solid;
+    align-content: center;
+    /* margin-left: 4.5cm; */
+   }
+
+
+    .view-instrument-container {
+        display: flex;
+        margin-top: 0.5cm;
+        /* margin-left: 1.75cm; */
+        width: 100%;
+        height: 1cm;
+         background-color: white;
+         flex-direction: row;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .view-guitar-button {
+        flex:1;
+        width: 0;
+    }
+
+    .guitar-button-style {
+        font-size: 17px; 
+        text-transform: uppercase;
+         margin-top: 5px;
+         margin-right:3.5cm;
+         margin-left:3cm;
+          color: #3D84D4;
+           border: 5px #3D84D4 solid;
+           border-radius: 5px;
+           text-align: center;
+    }
+
+    .view-piano-button {
+        flex:1;
+    }
+
+    .piano-button-style {
+        font-size: 17px; 
+        text-transform: uppercase;
+        margin-top: 5px;
+         margin-right:3.5cm;
+         margin-left:3.5cm;
+          color: #3D84D4;
+           border: 5px #3D84D4 solid;
+           border-radius: 5px;
+           text-align: center;
+    }
+
+    .view-violin-button {
+        flex:1;
+        padding: 0;
+    }
+
+    .violin-button-style {
+        font-size: 17px; 
+        text-transform: uppercase;
+        margin-top: 5px;
+        margin-right:3.2cm;
+        margin-left:3.5cm;
+          color: #3D84D4;
+           border: 5px #3D84D4 solid;
+           border-radius: 5px;
+           text-align: center;
+    }
+
+    .view-instrument-container2 {
+        display: flex;
+        margin-top: 0.5cm;
+        /* margin-left: 1.75cm; */
+        width: 100%;
+        height: 1cm;
+         background-color: white;
+         flex-direction: row;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .view-drums-button {
+        flex:1;
+        
+    }
+
+    .drums-button-style {
+        font-size: 17px; 
+        text-transform: uppercase;
+         margin-top: 5px;
+         margin-right:6cm;
+         margin-left:6cm;
+          color: #3D84D4;
+           border: 5px #3D84D4 solid;
+           border-radius: 5px;
+           text-align: center;
+    }
+
+    .view-pedals-button {
+        flex:1;
+    }
+
+    .pedals-button-style {
+        font-size: 17px; 
+        text-transform: uppercase;
+        margin-top: 5px;
+         margin-right:6cm;
+         margin-left:5cm;
+          color: #3D84D4;
+           border: 5px #3D84D4 solid;
+           border-radius: 5px;
+           text-align: center;
+    }
   
      /*SUBSCRIBE*/
   
