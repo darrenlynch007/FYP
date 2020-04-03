@@ -105,10 +105,12 @@
   .nav-container {
     display: flex;
     width: 100%;
+    text-align: center;
+    height: auto;
     }
-    .nav-container li{
+    .nav-container li{ 
       border-right: 3px white solid;
-      }
+      padding-right: 9px; }
     
     .nav-container div {
       width: 100%;
@@ -248,8 +250,7 @@
      .instrument-container {
          display: flex;
          margin-top: 1cm;
-         margin-left: 1.75cm;
-         width: 100%;
+         width: auto;
          /* height: 16cm; */
      }
 
@@ -257,14 +258,15 @@
          
          height: auto;
          background-color: white;
-         
+         width: 100%;
          flex-direction: row;
          font-family: Verdana, Geneva, Tahoma, sans-serif;
          
      }
-
+     
      .guitar-view {
          flex:1;
+         text-align: center;
      }
 
      .guitar-view img {
@@ -278,6 +280,7 @@
 
      .piano-view {
         flex:1;
+        text-align: center;
     }
 
     .piano-view img {
@@ -291,11 +294,16 @@
 
     .violin-view {
         flex:1;
+        text-align: center;
     }
+
+ 
 
     .violin-view img {
      height: 6.5cm;
-     padding: 23px 20px;
+     padding-left: 23px;
+     padding-top: 20px;
+     padding-bottom: 20px;
      border-radius: 6px;
      border: 7px #3D84D4 solid;
      /* margin-left: 4.5cm; */
@@ -304,6 +312,7 @@
     
     .drums-view {
         flex:1;
+        text-align: center;
     }
 
     .drums-view img {
@@ -318,6 +327,7 @@
 
     .pedals-view {
        flex:1;
+       text-align: center;
    }
 
    .pedals-view img {
@@ -339,11 +349,13 @@
          background-color: white;
          flex-direction: row;
          font-family: Verdana, Geneva, Tahoma, sans-serif;
+         
     }
 
     .view-guitar-button {
         flex:1;
         width: 0;
+        
     }
 
     .guitar-button-style {
@@ -356,6 +368,7 @@
            border: 5px #3D84D4 solid;
            border-radius: 5px;
            text-align: center;
+        
     }
 
     .view-piano-button {
@@ -372,6 +385,7 @@
            border: 5px #3D84D4 solid;
            border-radius: 5px;
            text-align: center;
+           cursor: pointer;
     }
 
     .view-violin-button {
@@ -389,6 +403,7 @@
            border: 5px #3D84D4 solid;
            border-radius: 5px;
            text-align: center;
+           cursor: pointer;
     }
 
     .view-instrument-container2 {
@@ -417,6 +432,7 @@
            border: 5px #3D84D4 solid;
            border-radius: 5px;
            text-align: center;
+           cursor: pointer;
     }
 
     .view-pedals-button {
@@ -433,6 +449,7 @@
            border: 5px #3D84D4 solid;
            border-radius: 5px;
            text-align: center;
+           cursor: pointer;
     }
   
      /*SUBSCRIBE*/
