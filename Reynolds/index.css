@@ -101,13 +101,13 @@ filter: none;
   text-transform: uppercase;
   margin-top: 0;
   font-size: 30px;
-  color: white;
+  color: orange;
   text-decoration-line: underline;
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
-.logoBox3:hover {
-  filter:none;
-}
+
 
 .logoBoxSub-Text3 {
   text-align: left;
@@ -122,10 +122,20 @@ filter: none;
   font-size: 20px;
   color: white;
   cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.logoBox3:hover {
+  filter:none;
+}
+
+.logoBoxText3:hover {
+  filter: none;
 }
 
 .logoBoxSub-Text3:hover {
   text-decoration-line: underline;
+  filter:none;
 }
 
 .text-block {
