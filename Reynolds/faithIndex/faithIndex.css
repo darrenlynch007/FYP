@@ -105,8 +105,12 @@
   .nav-container {
     display: flex;
     width: 100%;
+    text-align: center;
+    height: auto;
     }
-    .nav-container li{ border-right: 3px white solid; padding-right: 9px; }
+    .nav-container li{ 
+      border-right: 3px white solid;
+      padding-right: 9px; }
     
     .nav-container div {
       width: 100%;
@@ -130,7 +134,51 @@
     text-align: center;
     }
 
- 
+  .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.box-2 .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
     
     .box3 {
       flex: 1;
@@ -183,7 +231,7 @@
      .sub-header {
         display: flex;
         margin-top: 0.2cm;
-        margin-bottom: 40px;
+        margin-bottom: 0.5cm;
         width: 100%;
         height: 0.1cm;
         background-color: white;
@@ -198,141 +246,96 @@
         height: 0.1cm;
     }
 
+    .guitar-logo {
+        text-align: center;
+        margin:0.3cm 0;
+    }
     
-
-     .brand-container {
-         display: flex;
-         width: 100%;
-         /* border: 3px #3D84D4 solid; */
-         cursor: auto;
-     }
-     
-     .brand-container div {
-         text-align: center;
-         height: auto;
-         background-color: white;
-         
-         flex-direction: row;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-         
-     }
-
-     .martinBox {
-         flex: 1;
-         text-align: center;
-     }
-
-     .takamineBox {
-        flex: 1;
-        text-align: center;
+    .guitar-container {
+    display: flex;
+    /* margin: 1cm; */
+    width: 100%;
+    height: auto;
     }
 
-    .faithBox {
-        flex: 1;
-        text-align: center;
-    }
-
-    .sigmaBox {
-        flex: 1;
-        text-align: center;
-    }
-
-    .lowdenBox {
-        flex: 1;
-        text-align: center;
-    }
-
-    .tanglewoodBox {
-        flex: 1;
-        text-align: center;
+    .guitar-container div {
         margin-top: 1cm;
+        margin-right: 1cm;
+        margin-left: 1cm;
+        margin-bottom: 0.5cm;
     }
 
-    .brand-view {
-      display: flex;
-      width: auto;
-      height: auto;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: #3D84D4;
-  }
+    .FPNECG-container {
+        flex:1;
+        border: 5px #3D84D4 solid;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 0.5cm;
+    }
 
-  .view-martin {
-      flex: 1;
-      text-align: center;
-      text-transform: uppercase;
-      
-  }
+    .FNCEBLM-container {
+        flex: 1;
+        border: 5px #3D84D4 solid;
+        border-radius: 10px;
+        padding-left: 0.5cm;
+        padding-top: 0.5cm;
+        text-align: center;
+    }
 
-  .view-martin p{
-      border: 3px #3D84D4 solid;
-      margin:0.5cm 4cm;
-      border-radius:5px;
-  }
+    .FRMG-container {
+        flex: 1;
+        border: 5px #3D84D4 solid;
+        border-radius: 10px;
+        padding-left: 0.3cm;
+        padding-top: 0.4cm;
+        text-align: center;
+    }
 
-  .view-takamine {
-      flex: 1;
-      text-align: center;
-      text-transform: uppercase;
-  }
+    .guitar-view {
+        display: flex;
+        width: auto;
+        height: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #3D84D4;
+    }
 
-  .view-takamine p {
-      border: 3px #3D84D4 solid;
-      margin:0.5cm 4cm;
-      border-radius:5px;
-  }
+    .view-FPNECG{
+        flex: 1;
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
 
-  .view-faith {
-      flex: 1;
-      text-align: center;
-      text-transform: uppercase;
-  }
+    .view-FPNECG p{
+        border: 3px #3D84D4 solid;
+        margin:0.5cm 4cm;
+        border-radius:5px;
+    }
 
-  .view-faith p {
-      border: 3px #3D84D4 solid;
-      margin:0.5cm 4cm;
-      border-radius:5px;
-  }
+    .view-FNCEBLM{
+        flex: 1;
+        text-align: center;
+        text-transform: uppercase;
+    }
 
-  .view-sigma{
-    flex: 1;
-    text-align: center;
-    text-transform: uppercase;
-    
-}
+    .view-FNCEBLM p {
+        border: 3px #3D84D4 solid;
+        margin:0.5cm 4cm;
+        border-radius:5px;
+    }
 
-.view-sigma p{
-    border: 3px #3D84D4 solid;
-    margin:0.5cm 4cm;
-    border-radius:5px;
-}
+    .view-FRMG {
+        flex: 1;
+        text-align: center;
+        text-transform: uppercase;
+    }
 
-.view-lowden {
-    flex: 1;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.view-lowden p {
-    border: 3px #3D84D4 solid;
-    margin:0.5cm 4cm;
-    border-radius:5px;
-}
-
-.view-tanglewood {
-    flex: 1;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.view-tanglewood p {
-    border: 3px #3D84D4 solid;
-    margin:0.5cm 4cm;
-    border-radius:5px;
-}
+    .view-FRMG p {
+        border: 3px #3D84D4 solid;
+        margin:0.5cm 4cm;
+        border-radius:5px;
+    }
   
-
-
-    
      /*SUBSCRIBE*/
   
      .sub-container {
@@ -344,6 +347,11 @@
        height: 5cm;
        color: white;
        background-color: #52C6DC;
+      /* width: 450px;
+      height:180px;
+      position: relative;
+      top: 10px;
+      left: 15px; */
       padding: 10px;
         flex-direction: row;
         margin-top: 2cm;
@@ -381,6 +389,30 @@
       margin-left:0;
       margin-top: 1.33cm;
     }
+
+     
+  
+     /* .footer-box {
+      width:100%;
+      height: 10cm;
+      background-color: #3D84D4;
+      color: white;
+    }
+  
+    .footer-text {
+      width: 350px;
+      height:360px;
+      position: relative;
+      top: 0px;
+      left: 15px;  
+      color: rgb(255, 255, 255);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 24px;
+     }
+  
+     .footer-text h5 {
+       margin:0;
+     } */
      
      
      /*FOOTER*/
@@ -484,6 +516,31 @@
         .form__input_email:placeholder-shown + .form__label_email{
           opacity: 0;
           visibility: hidden;
+          -webkit-transform: translateY(-4rem);
+          transform: translateY(-4rem);
+        }
+
+        .form__input_quantity {
+          font-family: 'Roboto', sans-serif;
+          color: black;
+          font-size: 1.1rem;
+          text-align: center;
+          margin-top: 0.3cm;
+          margin-left:6.5cm;
+          padding: 0.3rem 1.5rem;
+          border-radius: 0.2rem;
+          background-color:white;
+          border: 5px #52C6DC solid;
+          width: 5%;
+          display: flex;
+          flex-direction: row;
+          /* border-bottom: 0.3rem solid transparent; */
+          transition: all 0.3s;
+        }
+        
+        .form__input_quantity:placeholder-shown + .form__label_quantity{
+          opacity: 0%;
+          visibility: 0;
           -webkit-transform: translateY(-4rem);
           transform: translateY(-4rem);
         }
