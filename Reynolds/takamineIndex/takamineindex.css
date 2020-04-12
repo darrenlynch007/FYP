@@ -3,10 +3,46 @@
     
 }
 
+.website-header {
+  display: flex;
+  text-align: center;
+  height: auto;
+  width: auto;
+  flex-direction: row;
+}
+
+.title {
+  flex: 1;
+  text-transform: uppercase;
+}
+
+.website-subheader {
+  display: flex;
+  text-align: center;
+  height: auto;
+  width: auto;
+  flex-direction: row;
+  
+}
+
+.sub-title {
+  flex: 1;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: center;
+  color: #3D84D4;
+  margin-top: 0;
+}
+
 .icon-container {
   width: 100%;
-  height:1.2cm;
-  padding:0;
+  height:auto;
+  text-align: right;
+  margin-bottom:0;
+  margin-top: 0.5cm;
+  margin-right: 5px;
 }
 
 .icon-container img{
@@ -211,16 +247,17 @@
       background-color: #3D84D4;
     }
     
-    a {
+    .nav-container a {
     text-decoration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif
     }
     
-    a:hover{
+    .nav-container a:hover{
       
       color: rgb(57, 255, 255);
-     } 
+     }
+  
   
      .active {
        border-bottom: 3px rgb(255, 255, 255) solid;
@@ -228,23 +265,45 @@
   
      }
 
-     .sub-header {
-        display: flex;
-        margin-top: 0.2cm;
-        margin-bottom: 0.5cm;
-        width: 100%;
-        height: 0.1cm;
-        background-color: white;
-        flex-direction: row;
-    }
+     .breadcrumb {
+      font-family: 'Times New Roman', Times, serif;
+      color: #3D84D4;
+   }
 
-    .sub-header-box-1 {
-        flex:1;
-        border: 2px white solid;
-        margin-top: 0;
-        color: #3D84D4;
-        height: 0.1cm;
-    }
+   .sub-header p {
+       width: 100%;
+       margin-top: 0;
+   }
+
+   .sub-header {
+  display: flex;
+   }
+
+   .sub-header div {
+   height: auto;
+   margin-top: 0.2cm;
+   }
+
+   .sub-header-item1 {
+   flex: 1;
+   text-align: left;
+   }
+
+   .sub-header-item2 {
+       flex: 1;
+       text-align: center;
+  }
+
+  .sub-header-item3 {
+       flex: 1;
+       text-align: right;
+  }
+
+  .sub-header-item3 img {
+      height: 1.2cm;
+      margin-top: 0;
+      
+  } 
 
     .guitar-logo {
         text-align: center;
@@ -307,7 +366,7 @@
     }
 
     .view-GD11MCENS p{
-        border: 3px #3D84D4 solid;
+        border: 2px #3D84D4 solid;
         margin:0.5cm 4cm;
         border-radius:5px;
     }
@@ -319,7 +378,7 @@
     }
 
     .view-GN93EC p {
-        border: 3px #3D84D4 solid;
+        border: 2px #3D84D4 solid;
         margin:0.5cm 4cm;
         border-radius:5px;
     }
@@ -331,64 +390,59 @@
     }
 
     .view-EF341SC p {
-        border: 3px #3D84D4 solid;
+        border: 2px #3D84D4 solid;
         margin:0.5cm 4cm;
         border-radius:5px;
     }
   
      /*SUBSCRIBE*/
-  
      .sub-container {
-       display: flex;
-     }
+      display: flex;
+      height: auto;
+      margin-top: 1.5cm;
+    }
   
-     .sub-container div{
-      width:100%;
-       height: 5cm;
-       color: white;
-       background-color: #52C6DC;
-      /* width: 450px;
-      height:180px;
-      position: relative;
-      top: 10px;
-      left: 15px; */
+    .sub-container div{
+     width:100%;
+      color: white;
+      background-color: #52C6DC;
       padding: 10px;
-        flex-direction: row;
-        margin-top: 2cm;
-        height: 5cm;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 32px;
-     }
+      flex-direction: row;
+      margin-top: 0cm;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 24px;
+    }
   
-     .sub-container h5 {
-       margin:0;
-     }
+    .sub-container h5 {
+      margin:0;
+    }
   
-     .sub-container p{
-       font-size: 18px;
-       margin-top:40px;
-     }
+    .sub-container p{
+      font-size: 18px;
+      margin-top: 10px;
+    }
   
-     .sub-container .box-1 {
-       flex: 1;
-     }
-  
-     .sub-container .box-2 {
+    .sub-container .box-1 {
       flex: 1;
     }
-
-     .sub-container .box-3 {
-       flex: 1;
-     }
-
-     .sub-container .box-4 {
+  
+    .sub-container .box-2 {
+     flex: 1;
+   }
+  
+    .sub-container .box-3 {
       flex: 1;
     }
-
-    .sub-container .box-4 img {
-      margin-left:0;
-      margin-top: 1.33cm;
-    }
+  
+    .sub-container .box-4 {
+     flex: 1;
+   }
+  
+   .sub-container .box-4 img {
+     margin-left:0;
+     margin-top: 1.33cm;
+   }
+  
 
      
   
@@ -430,45 +484,46 @@
         background-color: #3D84D4;
         flex-direction: row;
         margin: 0px;
-        height: 7cm;
+        height: auto;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 20px;
         }
-  
+    
         .footer-container h3{
           margin-top: 0px;
+          margin-bottom: 0.2cm;
         }
-  
+    
         .footer-container .boxA {
           flex: 1;
-          left:15px;
+          font-size: 16px;
         }
-
+    
         .footer-container .boxA img{
           padding-right: 10px;
         }
-  
+    
         .footer-container .boxB {
           flex: 1;
+          font-size: 16px;
         }
-
+    
         .footer-container .boxB img{
         padding-right:10px;
-        
         }
-  
+    
         .footer-container .boxC {
           flex: 1;
+          font-size: 16px;
         }
-
+    
         .footer-container .boxC img{
-          padding-right: 20px;
+          padding-right: 5px;
           }
-  
+    
           .footer-container .boxB p {
             margin: 5px;
           }
-        
         
 
 

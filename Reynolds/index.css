@@ -1,12 +1,47 @@
 .App {
   text-align: center;
+}
+
+.website-header {
+  display: flex;
+  text-align: center;
+  height: auto;
+  width: auto;
+  flex-direction: row;
+}
+
+.title {
+  flex: 1;
+  text-transform: uppercase;
+}
+
+.website-subheader {
+  display: flex;
+  text-align: center;
+  height: auto;
+  width: auto;
+  flex-direction: row;
   
+}
+
+.sub-title {
+  flex: 1;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: center;
+  color: #3D84D4;
+  margin-top: 0;
 }
 
 .icon-container {
   width: 100%;
-  height:1.2cm;
-  padding:0;
+  height:auto;
+  text-align: right;
+  margin-bottom:0;
+  margin-top: 0.5cm;
+  margin-right: 5px;
 }
 
 .icon-container img{
@@ -17,37 +52,41 @@
 
 .logo-container {
   display: flex;
-  /* border: 5px solid #3D84D4; */
-  margin-top: 0;
-  padding: 1cm;
+  margin-top: 1.5cm;
+  padding: 0cm 1cm 1cm 1cm;
   height: auto;
+  text-align: center;
 }
 
 .logoBox1 {
   flex: 1;
   text-align: center;
-  border: 3px #3D84D4 solid;
+  border: 2px #3D84D4 solid;
   border-radius: 5px;
-  width: 1cm;
+  text-align: center;
   background-image: url(/images/Guitar_Body_content.jpeg);
+  background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center;  
   filter: grayscale(100%);
-  height: 7cm;
+  height: auto;
   margin-right: 0.5cm;
 }
 
 .logoBoxText {
-  width: 4cm;
-  margin-top: 0.75cm;
-  margin-left: 3cm;
+  padding: 2cm 2.5cm 0 2.5cm;
   text-align: center;
   font-size: 30px;
   color: white;
-  background: #52C6DC;
-  border: 3px white solid;
-  border-radius: 6px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.logoBoxText p {
+  border: 2px white solid;
+  border-radius: 6px;
+  background: #52C6DC;
 }
 
 .logoBox1:hover {
@@ -61,12 +100,15 @@ filter: none;
 
 .logoBox2 {
   flex: 1;
+  padding-top: 1cm;
   text-align: center;
-  border: 3px #3D84D4 solid;
+  border: 2px #3D84D4 solid;
   border-radius: 5px;
-  width: 1cm;
   background-image: url(/images/service.jpg);
-  height: 7cm;
+  background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center;  
+  height: auto;
   margin-right: 0.5cm;
   filter: grayscale(100%);
 }
@@ -81,17 +123,22 @@ filter: none;
   text-transform: uppercase;
   font-size: 30px;
   color: white;
+  width: 6cm;
+  margin-top: 1.5cm;
   cursor: pointer;
 }
 
 .logoBox3 {
   flex: 1;
   text-align: center;
-  border: 3px #3D84D4 solid;
+  border: 2px #3D84D4 solid;
   border-radius: 5px;
   width: 1cm;
   background-image: url(/images/PAequipment.jpg);
-  height: 7cm;
+  background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
+  height: auto;
   filter: grayscale(100%);
 }
 
@@ -105,24 +152,30 @@ filter: none;
   text-decoration-line: underline;
   filter: grayscale(100%);
   cursor: pointer;
+
 }
 
 
 
 .logoBoxSub-Text3 {
-  text-align: left;
+  text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: black;
   border: 2px white solid;
   border-radius: 3px;
   /* text-transform: uppercase; */
-  margin-left:0.5cm;
-  margin-top: 1.5cm;
+  margin-left:1cm;
+  margin-top: 3.3cm;
   margin-right: 6cm;
   font-size: 20px;
   color: white;
   cursor: pointer;
   filter: grayscale(100%);
+  padding-top: 5px;
+  max-width: 6cm;
+  max-height: 3cm;
+  min-width: 5cm;
+  min-height: 2cm;
 }
 
 .logoBox3:hover {
@@ -175,16 +228,6 @@ body.App-header {
   color: #3D84D4;
 }
 
-.App-header h2{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: lighter;
-  font-size: 12px;
-  line-height: 0px;
-  text-align: center;
-  color: #3D84D4;
-  padding-bottom: 50px;
-  
-}
 
 hr { 
   margin-top: 1cm;
@@ -236,6 +279,7 @@ hr {
 .nav-container {
   display: flex;
   width: 100%;
+  margin-top: 1cm;
   }
 
   .nav-container li{
@@ -316,24 +360,19 @@ hr {
 
    .sub-container {
     display: flex;
+    height: auto;
+    margin-top: 1.5cm;
   }
 
   .sub-container div{
    width:100%;
-    height: 5cm;
     color: white;
     background-color: #52C6DC;
-   /* width: 450px;
-   height:180px;
-   position: relative;
-   top: 10px;
-   left: 15px; */
-   padding: 10px;
-     flex-direction: row;
-     margin-top: 0cm;
-     height: 5cm;
+    padding: 10px;
+    flex-direction: row;
+    margin-top: 0cm;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
-     font-size: 32px;
+     font-size: 24px;
   }
 
   .sub-container h5 {
@@ -342,7 +381,7 @@ hr {
 
   .sub-container p{
     font-size: 18px;
-    margin-top:40px;
+    margin-top: 10px;
   }
 
   .sub-container .box-1 {
@@ -370,7 +409,6 @@ hr {
   display: flex;
   width:100%;
   color: white;
- 
   }
   
   .footer-container div {
@@ -380,18 +418,19 @@ hr {
     background-color: #3D84D4;
     flex-direction: row;
     margin: 0px;
-    height: 6.5cm;
+    height: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     }
 
     .footer-container h3{
       margin-top: 0px;
+      margin-bottom: 0.2cm;
     }
 
     .footer-container .boxA {
       flex: 1;
-      left:15px;
+      font-size: 16px;
     }
 
     .footer-container .boxA img{
@@ -400,19 +439,20 @@ hr {
 
     .footer-container .boxB {
       flex: 1;
+      font-size: 16px;
     }
 
     .footer-container .boxB img{
     padding-right:10px;
-    
     }
 
     .footer-container .boxC {
       flex: 1;
+      font-size: 16px;
     }
 
     .footer-container .boxC img{
-      padding-right: 20px;
+      padding-right: 5px;
       }
 
       .footer-container .boxB p {
