@@ -1,31 +1,31 @@
 .App {
     text-align: center;
     
-}
-
-.website-header {
+  }
+  
+  .website-header {
   display: flex;
   text-align: center;
   height: auto;
   width: auto;
   flex-direction: row;
-}
-
-.title {
+  }
+  
+  .title {
   flex: 1;
   text-transform: uppercase;
-}
-
-.website-subheader {
+  }
+  
+  .website-subheader {
   display: flex;
   text-align: center;
   height: auto;
   width: auto;
   flex-direction: row;
   
-}
-
-.sub-title {
+  }
+  
+  .sub-title {
   flex: 1;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,22 +34,22 @@
   text-align: center;
   color: #3D84D4;
   margin-top: 0;
-}
-
-.icon-container {
+  }
+  
+  .icon-container {
   width: 100%;
   height:auto;
   text-align: right;
   margin-bottom:0;
   margin-top: 0.5cm;
   margin-right: 5px;
-}
-
-.icon-container img{
+  }
+  
+  .icon-container img{
   width: 1.2cm;
   height:1.2cm;
   margin-right: 5px;
-}
+  }
   
   .text-block {
     width: 410px;
@@ -141,12 +141,8 @@
   .nav-container {
     display: flex;
     width: 100%;
-    text-align: center;
-    height: auto;
     }
-    .nav-container li{ 
-      border-right: 3px white solid;
-      padding-right: 9px; }
+    .nav-container li{ border-right: 3px white solid; padding-right: 9px; }
     
     .nav-container div {
       width: 100%;
@@ -169,7 +165,7 @@
       height: 20px;
     text-align: center;
     }
-
+  
   .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -177,44 +173,44 @@
   font-size: 16px;
   border: none;
   cursor: pointer;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.box-2 .dropdown {
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .box-2 .dropdown {
   position: relative;
   display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
   display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
   background-color: #3e8e41;
-}
+  }
     
     .box3 {
       flex: 1;
@@ -256,202 +252,93 @@
     .nav-container a:hover{
       
       color: rgb(57, 255, 255);
-     }
-  
+     } 
   
      .active {
        border-bottom: 3px rgb(255, 255, 255) solid;
        
   
      }
-
+  
      .breadcrumb {
-      font-family: 'Times New Roman', Times, serif;
-      color: #3D84D4;
-   }
-
-   .sub-header p {
-       width: 100%;
-       margin-top: 0;
-   }
-
-   .sub-header {
-  display: flex;
-   }
-
-   .sub-header div {
-   height: auto;
-   margin-top: 0.2cm;
-   }
-
-   .sub-header-item1 {
-   flex: 1;
-   text-align: left;
-   }
-
-   .sub-header-item2 {
-       flex: 1;
-       text-align: center;
-  }
-
-  .sub-header-item3 {
-       flex: 1;
-       text-align: right;
-  }
-
-  .sub-header-item3 img {
-      height: 1.2cm;
-      margin-top: 0;
-      
-  } 
-
+        font-family: 'Times New Roman', Times, serif;
+        color: #3D84D4;
+     }
+  
+     .sub-header p {
+         width: 100%;
+         margin-top: 0;
+     }
+  
+     .sub-header {
+    display: flex;
+     }
+  
+     .sub-header div {
+     height: auto;
+     margin-top: 0.2cm;
+     }
+  
+     .sub-header-item1 {
+     flex: 1;
+     text-align: left;
+     }
+  
+     .sub-header-item2 {
+         flex: 1;
+         text-align: center;
+    }
+  
+    .sub-header-item3 {
+         flex: 1;
+         text-align: right;
+    }
+  
+    .sub-header-item3 img {
+        height: 1.2cm;
+        margin-top: 0;
+        
+    } 
     
-
-     .instrument-container {
+     .gtar-container {
          display: flex;
          margin-top: 1cm;
-         width: auto;
-         /* height: 16cm; */
      }
-
-     .instrument-container div {
-         
+  
+     .gtar-container div {
+         width: 100%;
          height: auto;
          background-color: white;
-         width: 100%;
+         text-align: center;
          flex-direction: row;
          font-family: Verdana, Geneva, Tahoma, sans-serif;
          
      }
-     
-     .piano1{
-         flex:1;
+  
+     .gtar-name-box {
+         height: 45px;
          text-align: center;
+         color: #3D84D4;
+         margin-top: 0;
+         font-size: 34px;
      }
-
-     .piano1 img {
+  
+     .gtar-container-box-1 {
+         flex:1;
+     }
+  
+     .gtar-container-box-1 img {
       height: auto;
       border-radius: 6px;
-      border:4px #3D84D4 solid;
+      border: 2px #3D84D4 solid;
      }
-
-     
-
-     .piano2 {
-        flex:1;
-        text-align: center;
-    }
-
-    .piano2 img {
-     border-radius: 6px;
-     border: 4px #3D84D4 solid;
-     align-content: center;
-     height: auto;
-     /* margin-left: 4.5cm; */
-    }
-
-    .piano3 {
-        flex:1;
-        text-align: center;
-        height: auto;
-    }
-
- 
-
-    .piano3 img {
-     height: auto;
-     border-radius: 6px;
-     border: 4px #3D84D4 solid;
-     padding-top: 1.6cm;
-     padding-bottom: 1.5cm;
-     /* margin-left: 4.5cm; */
-     align-content: center;
-    }
-    
-    .piano4 {
-        flex:1;
-        text-align: center;
-    }
-
-    .piano4 img {
-        height: auto;
-        border-radius: 6px;
-        border: 4px #3D84D4 solid;
-        padding-top: 1.6cm;
-        padding-bottom: 1.5cm;
-        /* margin-left: 4.5cm; */
-        align-content: center;
-    }
-
-
-    .view-instrument-container {
-        display: flex;
-        margin-top: 0.5cm;
-        /* margin-left: 1.75cm; */
-        width: 100%;
-        height: 1cm;
-         background-color: white;
-         flex-direction: row;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-         
-    }
-
-
-    .view-piano1 {
-        flex: 1;
-        text-align: center;
-        text-transform: uppercase;
-        color: #3D84D4;
-        font-size: 16px;
-    }
-
-    .view-piano1 b {
-        border: 2px #3D84D4 solid;
-        padding: 0 0.3cm;
-        border-radius:5px;
-    }
-
-    .view-piano2 {
-        flex: 1;
-        text-align: center;
-        text-transform: uppercase;
-        color: #3D84D4;
-        font-size: 16px;
-    }
-
-    .view-piano2 b {
-        border: 2px #3D84D4 solid;
-        padding: 0 0.3cm;
-        border-radius:5px;
-    }
-
-    .view-piano3 {
-        flex: 1;
-        text-align: center;
-        text-transform: uppercase;
-        color: #3D84D4;
-        font-size: 16px;
-    }
-
-    .view-piano3 b {
-        border: 2px #3D84D4 solid;
-        padding: 0 0.3cm;
-        border-radius:5px;
-    }
-
-    .view-piano4 {
-        flex: 1;
-        text-align: center;
-        text-transform: uppercase;
-        color: #3D84D4;
-        font-size: 16px;
-    }
-
-    .view-piano4 b {
-        border: 2px #3D84D4 solid;
-        padding: 0 0.3cm;
-        border-radius:5px;
-    }
+  
+     .gtar-container-box-2 {
+         flex:1;
+         padding: 0px;
+         text-align:center;
+         border-left: 4px #3D84D4 solid;
+     }
   
      /*SUBSCRIBE*/
   
@@ -501,6 +388,34 @@
      margin-left:0;
      margin-top: 1.33cm;
    }
+  
+  
+     
+  
+     /* .footer-box {
+      width:100%;
+      height: 10cm;
+      background-color: #3D84D4;
+      color: white;
+    }
+  
+    .footer-text {
+      width: 350px;
+      height:360px;
+      position: relative;
+      top: 0px;
+      left: 15px;  
+      color: rgb(255, 255, 255);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 24px;
+     }
+  
+     .footer-text h5 {
+       margin:0;
+     } */
+     
+     
+     /*FOOTER*/
   
      .footer-container {
       display: flex;
@@ -557,8 +472,8 @@
           }
         
         
-
-
+  
+  
         .form__input_name {
           font-family: 'Roboto', sans-serif;
           color: #333;
@@ -582,7 +497,7 @@
           -webkit-transform: translateY(-4rem);
           transform: translateY(-4rem);
         }
-
+  
         .form__input_email {
           font-family: 'Roboto', sans-serif;
           color: #333;
@@ -606,39 +521,37 @@
           -webkit-transform: translateY(-4rem);
           transform: translateY(-4rem);
         }
-
+  
         .form__input_quantity {
           font-family: 'Roboto', sans-serif;
           color: black;
           font-size: 1.1rem;
           text-align: center;
-          margin-top: 0.3cm;
-          margin-left:6.5cm;
+          /* margin-top: 0.3cm; */
+          /* margin-left:6.5cm; */
           padding: 0.3rem 1.5rem;
           border-radius: 0.2rem;
           background-color:white;
           border: 5px #52C6DC solid;
           width: 5%;
-          display: flex;
-          flex-direction: row;
-          /* border-bottom: 0.3rem solid transparent; */
           transition: all 0.3s;
         }
         
         .form__input_quantity:placeholder-shown + .form__label_quantity{
-          opacity: 0%;
+            opacity: 0%;
           visibility: 0;
           -webkit-transform: translateY(-4rem);
           transform: translateY(-4rem);
         }
-
+  
     .gtar-container-box-1 .cart {
-      width:200px; 
+      
       height:54px; 
-      margin-left:2.5cm; 
+      text-align: center;
       margin-top:0.2cm;
       border:none;
       
     }
-
+  
         
+  

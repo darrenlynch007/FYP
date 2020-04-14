@@ -292,6 +292,7 @@
    .sub-header-item2 {
        flex: 1;
        text-align: center;
+       padding-top: 0.7cm;
   }
 
   .sub-header-item3 {
@@ -305,156 +306,97 @@
       
   } 
 
-    
-
-     .instrument-container {
-         display: flex;
-         margin-top: 1cm;
-         width: auto;
-         /* height: 16cm; */
-     }
-
-     .instrument-container div {
-         
-         height: auto;
-         background-color: white;
-         width: 100%;
-         flex-direction: row;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-         
-     }
-     
-     .piano1{
-         flex:1;
-         text-align: center;
-     }
-
-     .piano1 img {
-      height: auto;
-      border-radius: 6px;
-      border:4px #3D84D4 solid;
-     }
-
-     
-
-     .piano2 {
-        flex:1;
+    .guitar-logo {
         text-align: center;
-    }
-
-    .piano2 img {
-     border-radius: 6px;
-     border: 4px #3D84D4 solid;
-     align-content: center;
-     height: auto;
-     /* margin-left: 4.5cm; */
-    }
-
-    .piano3 {
-        flex:1;
-        text-align: center;
-        height: auto;
-    }
-
- 
-
-    .piano3 img {
-     height: auto;
-     border-radius: 6px;
-     border: 4px #3D84D4 solid;
-     padding-top: 1.6cm;
-     padding-bottom: 1.5cm;
-     /* margin-left: 4.5cm; */
-     align-content: center;
+        margin:0.3cm 0;
     }
     
-    .piano4 {
+    .guitar-container {
+    display: flex;
+    /* margin: 1cm; */
+    width: 100%;
+    height: auto;
+    }
+
+    .guitar-container div {
+        margin-top: 1cm;
+        margin-right: 1cm;
+        margin-left: 1cm;
+        margin-bottom: 0.5cm;
+    }
+
+    .TW3e-container {
         flex:1;
+        border: 5px #3D84D4 solid;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 0.4cm;
+    }
+
+    .TW2-container {
+        flex: 1;
+        border: 5px #3D84D4 solid;
+        border-radius: 10px;
+        padding-top: 0.3cm;
+        padding-left: 0.5cm;
         text-align: center;
     }
 
-    .piano4 img {
-        height: auto;
-        border-radius: 6px;
-        border: 4px #3D84D4 solid;
-        padding-top: 1.6cm;
-        padding-bottom: 1.5cm;
-        /* margin-left: 4.5cm; */
-        align-content: center;
+    .TWU-container {
+        flex: 1;
+        border: 5px #3D84D4 solid;
+        border-radius: 10px;
+        padding-left: 0.3cm;
+        padding-top: 0.6cm;
+        text-align: center;
     }
 
-
-    .view-instrument-container {
+    .guitar-view {
         display: flex;
-        margin-top: 0.5cm;
-        /* margin-left: 1.75cm; */
-        width: 100%;
-        height: 1cm;
-         background-color: white;
-         flex-direction: row;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-         
+        width: auto;
+        height: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #3D84D4;
     }
 
-
-    .view-piano1 {
+    .view-TW3e {
         flex: 1;
         text-align: center;
         text-transform: uppercase;
-        color: #3D84D4;
-        font-size: 16px;
+        
     }
 
-    .view-piano1 b {
+    .view-TW3e p{
         border: 2px #3D84D4 solid;
-        padding: 0 0.3cm;
+        margin:0.5cm 4cm;
         border-radius:5px;
     }
 
-    .view-piano2 {
+    .view-TW2{
         flex: 1;
         text-align: center;
         text-transform: uppercase;
-        color: #3D84D4;
-        font-size: 16px;
     }
 
-    .view-piano2 b {
+    .view-TW2 p {
         border: 2px #3D84D4 solid;
-        padding: 0 0.3cm;
+        margin:0.5cm 4cm;
         border-radius:5px;
     }
 
-    .view-piano3 {
+    .view-TWU{
         flex: 1;
         text-align: center;
         text-transform: uppercase;
-        color: #3D84D4;
-        font-size: 16px;
     }
 
-    .view-piano3 b {
+    .view-TWU p {
         border: 2px #3D84D4 solid;
-        padding: 0 0.3cm;
-        border-radius:5px;
-    }
-
-    .view-piano4 {
-        flex: 1;
-        text-align: center;
-        text-transform: uppercase;
-        color: #3D84D4;
-        font-size: 16px;
-    }
-
-    .view-piano4 b {
-        border: 2px #3D84D4 solid;
-        padding: 0 0.3cm;
+        margin:0.5cm 4cm;
         border-radius:5px;
     }
   
      /*SUBSCRIBE*/
-  
      .sub-container {
       display: flex;
       height: auto;
@@ -501,6 +443,34 @@
      margin-left:0;
      margin-top: 1.33cm;
    }
+  
+
+     
+  
+     /* .footer-box {
+      width:100%;
+      height: 10cm;
+      background-color: #3D84D4;
+      color: white;
+    }
+  
+    .footer-text {
+      width: 350px;
+      height:360px;
+      position: relative;
+      top: 0px;
+      left: 15px;  
+      color: rgb(255, 255, 255);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 24px;
+     }
+  
+     .footer-text h5 {
+       margin:0;
+     } */
+     
+     
+     /*FOOTER*/
   
      .footer-container {
       display: flex;
@@ -555,7 +525,6 @@
           .footer-container .boxB p {
             margin: 5px;
           }
-        
         
 
 
